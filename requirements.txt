@@ -1,0 +1,25 @@
+# YouTube Downloader Requirements
+# Install with: pip install -r requirements.txt
+
+# Core YouTube downloading library
+yt-dlp>=2023.12.30
+
+# GUI framework (usually comes with Python)
+# tkinter - built-in with Python, no installation needed
+
+# Additional libraries for enhanced functionality
+# These are optional but recommended
+
+# For better video processing
+ffmpeg-python>=0.2.0
+
+# For improved error handling and network requests
+requests>=2.31.0
+
+# Note: 
+# - tkinter comes pre-installed with Python
+# - yt-dlp is the main requirement
+# - FFmpeg needs to be installed separately on your system for audio/video conversion
+#   Windows: Download from https://ffmpeg.org/download.html
+#   Mac: brew install ffmpeg
+#   Linux: sudo apt install ffmpeg
